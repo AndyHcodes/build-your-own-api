@@ -20,7 +20,7 @@ These ideas are intended to only require a single table. Feel free to try more c
 - Connect your locat repository to the remote GitHub repository
 - Initialise a new `NPM` project in you project directory with `npm init`
 - Add `node_modules` to your `.gitignore` file
-- Indtall `eslint-config-mcr-codes` as a dev dependency, configure it according to these [instructions](https://www.npmjs.com/package/eslint-config-mcr-codes?activeTab=readme)
+- Install `eslint-config-mcr-codes` as a dev dependency, configure it according to these [instructions](https://www.npmjs.com/package/eslint-config-mcr-codes?activeTab=readme)
 
 ## Application Setup
 - Install `express` and `sequelize` as dependencies
