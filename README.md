@@ -53,7 +53,7 @@ At this point you should be able to run `npm start` in your terminal, and get a 
 - Copy accross the `test-setup.js` from the `music-api`
 - Add a `.env.test` with the same environment variables as your `.env`. Make sure to give your test database a different name.
 - Add `.env.test` to your `.gitignore`
-- Add a `test` script to your `package.json` file: `mocha tests/**/*.test.js --opts .mocha.opts`
+- Add a `test` script to your `package.json` file: `mocha tests/**/*.test.js`
 - Add a `pretest` script to your `package.json`. Set the command to: `node scripts/create-database.js test`. Note that this time we pass the `test` option at the end of the command. This tells the script to load the variables from `.env.test` instead of `.env`.
 - Add a `posttest` script, set the command to: `node scripts/drop-database.js`. This will delete your test database after your tests have finished running.
 
